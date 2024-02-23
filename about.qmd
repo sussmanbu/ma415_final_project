@@ -13,14 +13,11 @@ about:
     - icon: github
       text: Github
       href: https://github.com/sussmanbu/
-
 ---
-
 
 This comes from the file `about.qmd`.
 
-This is a website for the final project for MA[46]15 Data Science with R by Team TEAMNAME.
-The members of this team are below.
+This is a website for the final project for MA\[46\]15 Data Science with R by Team TEAMNAME. The members of this team are below.
 
 ## Henry Price
 
@@ -37,6 +34,10 @@ Jiaqi Wei is a senior majoring in Econ & Math, minoring in CS. Github User name:
 ## Qiuting He
 
 Qiuting He is a junior majoring in Econ & Math. Github User Name: QiutingH
+
+## Ruihang Liu
+
+Ruihang Liu is a senior majoring in Computer Science. Here is his [github link](https://github.com/hrl-2024).
 
 <!-- Please leave in the information below -->
 
