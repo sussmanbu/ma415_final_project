@@ -6,7 +6,35 @@ date-modified: "2024-02-28"
 draft: FALSE
 ---
 
-# Data Set 3: IPUMS CPS COVID-19 Impact Data
+# Data Set 1: COMPAS Recidivism Racial Bias
+
+[Dataset link here](https://github.com/propublica/compas-analysis)
+
+[Description here](https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm)
+
+This dataset is collected by ProPublica in 2013 and 2014, from the Broward County Sheriff’s Office in Florida. Dataset consists of 11,757 individuals' COMPAS(Correctional Offender Management Profiling for Alternative Sanctions) score, which is a popular metric used by judges and officers to determine the likelihood of someone reoffending (recidivism). The data consists of RawScore, DecileScore and ScoreText that tells us about an individual's COMPAS score. Each record also consists of individual's sex, race, legal status, supervision level status, which are valuable information for our analysis on the racial difference and sex difference on the bias in COMPAS score used by judicial world.
+
+# Data Set 2: [Iowa Probation Recidivism Status](https://data.iowa.gov/Correctional-System/Iowa-Probation-Recidivism-Status/pax6-5xni/about_data)
+
+This dataset contains deidentified case level records of individuals starting probation supervision in the community. Data begins with the FY 2016 cohort. It also provides an individual's status at three years to assess whether probation was successful or whether the individual was reincarcerated. The dataset appears to detail recidivism among individuals released from prison, focusing on various demographic, legal, and post-release supervisory characteristics. The following are the definition on main variables in each column:
+
+-   Race: The individual's race or ethnicity.
+-   Sex: The individual's biological sex.
+-   Age: The individual's age at start of probation.
+-   Cohort Fiscal Year: The fiscal year the individual began probation. The fiscal year runs from July 1 through June 30, and is labeled for the calendar year that it ends.
+-   Report Fiscal Year: The fiscal year in which probation is deemed successful. The fiscal year runs from July 1 through June 30, and is labeled for the calendar year that it ends.
+-   Supervision Start Date: Start date of supervision, or earliest start date of concurrent or overlapping sentences.
+-   Supervision End Date: End date of supervision, or latest end date of concurrent or overlapping sentences.
+-   Prison Supervision Start Date: Start date of prison supervision where the individual was incarcerated. Null if the individual was not incarcerated.
+-   Prison Supervision End Date: End date of prison supervision where the individual was incarcerated. Null if the individual was not incarcerated.
+-   Offense Date: The date of the offense resulting in the individual's incarceration. Null where the individual was not incarcerated.
+-   Survival Time (Days): Provides the number of days the individual was in the community before being incarcerated. Null where the individual was not incarcerated.
+-   Survival Time (Months): Provides the number of months (days/30) the individual was in the community before being incarcerated. Null where the individual was not incarcerated.
+-   Supervision Level: Supervision level assigned to the individual. Options include Levels 1-5. Level 0 indicates risk assessment has not been conducted for the individual.
+
+The dataset is in a csv file, so it is able to load and clean. From the dataset, we want to explore on the question that are there disparities in recidivism rates among racial-ethnic groups when considering the supervising district?
+
+# Data Set 3: IPUMS CPS COVID-19 Economic Impact Data
 
 [Dataset link here](https://cps.ipums.org/cps/)
 

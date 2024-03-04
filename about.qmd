@@ -12,7 +12,7 @@ about:
     #   href: https://linkedin.com
     - icon: github
       text: Github
-      href: https://github.com/sussmanbu/
+      href: https://github.com/sussmanbu/final-project-team5
 ---
 
 This comes from the file `about.qmd`.
