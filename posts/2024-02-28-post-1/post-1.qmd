@@ -6,3 +6,10 @@ date-modified: "2024-02-28"
 draft: FALSE
 ---
 
+Data Set 1: COMPAS Recidivism Racial Bias
+
+[Dataset link here](https://github.com/propublica/compas-analysis)
+
+[Description here](https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm)
+
+This dataset is collected by ProPublica in 2013 and 2014, from the Broward County Sheriff’s Office in Florida. Dataset consists of 11,757 individuals' COMPAS(Correctional Offender Management Profiling for Alternative Sanctions) score, which is a popular metric used by judges and officers to determine the likelihood of someone reoffending (recidivism). The data consists of RawScore, DecileScore and ScoreText that tells us about an individual's COMPAS score. Each record also consists of individual's sex, race, legal status, supervision level status, which are valuable information for our analysis on the racial difference and sex difference on the bias in COMPAS score used by judicial world.
